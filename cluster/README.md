@@ -1,6 +1,7 @@
 # Cluster Usage
 
 ## Hosts and Power ports
+
 ```
 'tarekc39':'tarek4234-ckt21-pdu.cs.illinois.edu 2'
 'tarekc40':'tarek4234-ckt21-pdu.cs.illinois.edu 3'
@@ -84,9 +85,20 @@
 'tarekc61':'tarek4234-ckt24-pdu.cs.illinois.edu 24'
 ```
 
-## Measure server power:
-For example, to measure tarekc39's power, find the port listed above and:
+## Measure server power
+
+Make a copy of https://github.com/zyrgit/shared/blob/master/cluster/avocent_measure.php on the server.
+To measure tarekc39's power, find the port listed above and:
 ```
-avocent_measure.php tarek4234-ckt21-pdu.cs.illinois.edu 2
+php avocent_measure.php tarek4234-ckt21-pdu.cs.illinois.edu 2
 ```
+
+## Servers
+
+High-end machines:
+`tarekc41 - tarekc79`
+
+Low-end machines:
+`tarekc01 - tarekc40`
+
 
