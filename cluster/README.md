@@ -82,3 +82,10 @@
 'tarekc63':'tarek4234-ckt24-pdu.cs.illinois.edu 22'
 'tarekc62':'tarek4234-ckt24-pdu.cs.illinois.edu 23'
 'tarekc61':'tarek4234-ckt24-pdu.cs.illinois.edu 24'
+
+## Measure server power:
+For example, to measure tarekc39's power:
+```
+avocent_measure.php tarek4234-ckt21-pdu.cs.illinois.edu 2
+```
+
