@@ -1,7 +1,7 @@
 # Cluster Usage
 
 ## Hosts and Power ports
-
+```
 'tarekc39':'tarek4234-ckt21-pdu.cs.illinois.edu 2'
 'tarekc40':'tarek4234-ckt21-pdu.cs.illinois.edu 3'
 'tarekc31':'tarek4234-ckt21-pdu.cs.illinois.edu 4'
@@ -82,9 +82,10 @@
 'tarekc63':'tarek4234-ckt24-pdu.cs.illinois.edu 22'
 'tarekc62':'tarek4234-ckt24-pdu.cs.illinois.edu 23'
 'tarekc61':'tarek4234-ckt24-pdu.cs.illinois.edu 24'
+```
 
 ## Measure server power:
-For example, to measure tarekc39's power:
+For example, to measure tarekc39's power, find the port listed above and:
 ```
 avocent_measure.php tarek4234-ckt21-pdu.cs.illinois.edu 2
 ```
