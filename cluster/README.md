@@ -93,12 +93,5 @@ To measure tarekc39's power, find the port listed above and:
 php avocent_measure.php tarek4234-ckt21-pdu.cs.illinois.edu 2
 ```
 
-## Servers
-
-High-end machines:
-`tarekc41 - tarekc79`
-
-Low-end machines:
-`tarekc01 - tarekc40`
 
 
